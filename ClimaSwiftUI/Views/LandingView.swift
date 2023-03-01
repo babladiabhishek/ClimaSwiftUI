@@ -31,7 +31,7 @@ struct LandingView: View {
                             .frame(width: 100, height: 100)
                         HStack {
                             Text(viewModel.data!.temperatureString) + Text("°")
-                            Text("F")
+                            Text("K")
                         }
                         Text(viewModel.data!.cityName)
                     }
